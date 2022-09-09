@@ -25,10 +25,7 @@ public class JDBCDemo {
                 }
             } else {
                 System.out.println("not connected");
-
             }
-
-
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
